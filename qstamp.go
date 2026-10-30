@@ -24,7 +24,7 @@ type CommitmentContext struct {
 	Kind     string
 }
 
-// Receipt is the Qstamp receipt object, format qstamp-receipt/1.
+// Receipt is the Qstamp receipt object in the version one format.
 type Receipt struct {
 	Format   string `json:"format"`
 	Chain    Chain  `json:"chain"`
